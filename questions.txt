@@ -1,0 +1,20 @@
+# Once an Object Oriented solution has been implemented, answer the following questions:
+# How does this solution demonstrate the four pillars of OOP? (It may not demonstrate all of them, describe only those that apply)
+
+# Encapsulation
+In the Podracer class, we demonstrate this through the max_speed, condition, and price attributes that are encapsulated within the class. This way, these attributes can only be accessed through methods that are defined in the Podracer class.
+
+# Abstraction
+Both the repair() and boost() methods demonstrate abstraction within the Podracer class by showing clear interaction with objects.
+
+# Inheritance
+AnakinsPod and SebulbasPod demonstrate inheritance within the Podracer class because they are both inheriting Podracer as an argument, therefore acquiring all its attributes and methods.
+
+# Polymorphism
+I don't believe polymorphism is demonstrated within the Podracer class because we did not have other classes override any methods from Podracer to implement and behave differently.
+
+# Would it have been easier to implement a solution to this problem using a different coding style? Why or why not?
+I think that this was probably the best approach just because we were going to have to make multiple Podracers with certain attributes that differ. I think that as we would further add to this code, it would be more clear that using a class is the best choice here.
+
+# How in particular did Object Oriented Programming assist in the solving of this problem?
+I think OOP assisted in solving this by using the general Podracer class with attributes and methods that could be extended by specific types of Podracers. Additionally, I think encapsulation helps protect the internal state of the objects while inheritance promotes code resuage.
